@@ -4,8 +4,8 @@ metadata:
   name: cv1-ambulance-ufe-content
 spec:
   microFrontend: cv1-ambulance-ufe
-  element: cv1-ambulance-wl-list
+  element: cv1-ambulance-xl-list
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?cv1-ambulance-wl(/.*)?$"
+      - path: "^(\\.?/)?cv1-ambulance-xl(/.*)?$"
